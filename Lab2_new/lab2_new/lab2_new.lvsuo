@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssemblyFileVersion="3.0.0.50009" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.50009" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="3.0.0.49152" />
+    </SourceModelFeatureSet>
+    <UserSettingsDefinition Envoy="47" Name=":Project:PC:AM\.gvi">
+        <DefinitionCacheUserSetting Envoy="47" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+            <FunctionSignatureCache CacheSignature="1D17DCD78F98166" Height="50" ListViewHeight="150" ListViewWidth="150" Name="AM\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+                <p.IconModel>
+                    <MergeScript xmlns="http://www.ni.com/PlatformFramework">
+                        <MergeFeatureSet>
+                            <SourceModelFeatureSet>
+                                <ParsableNamespace AssemblyFileVersion="3.0.0.50009" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+                            </SourceModelFeatureSet>
+                        </MergeFeatureSet>
+                        <MergeItem Path="." IsPrimary="True">
+                            <Icon ListViewIconCrop="0 0 50 50">
+                                <IconPanel Height="[float]50" Width="[float]50">
+                                    <IconTemplate ClipMargin="[SMThickness]3,3,3,3" TemplateName="Gray">
+                                        <Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                                        <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                                        <FileNameText FileNameText="[bool]True" Font="[SMFont]0,11.25," HorizontalAlignment="[HorizontalAlignment]Left" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]AM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" VerticalAlignment="[VerticalAlignment]Top" />
+                                    </IconTemplate>
+                                    <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Margin="[SMThickness]3,3,3,3" />
+                                </IconPanel>
+                            </Icon>
+                        </MergeItem>
+                    </MergeScript>
+                </p.IconModel>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="Double" HotSpot="0 5" ListViewHotSpot="0 35" Name="frequency_M" PreferredDirection="Input" SideIndex="L0">
+                    <p.DefaultValue>0x4024000000000000</p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="1" CallUsage="Recommended" DataType="Double" HotSpot="0 15" ListViewHotSpot="0 50" Name="amplitude_M" PreferredDirection="Input" SideIndex="L1">
+                    <p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="3" CallUsage="Recommended" DataType="@-76017669_0" HotSpot="0 35" ListViewHotSpot="0 65" Name="sampling info_M" PreferredDirection="Input" SideIndex="L3">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>0x408F400000000000</Field1>
+                            <Field2>0x408F400000000000</Field2>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="4" CallUsage="Recommended" DataType="Double" HotSpot="15 50" ListViewHotSpot="0 80" Name="frequency_C" PreferredDirection="Input" SideIndex="B0">
+                    <p.DefaultValue>0x4024000000000000</p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="5" CallUsage="Recommended" DataType="Double" HotSpot="25 50" ListViewHotSpot="0 95" Name="amplitude_C" PreferredDirection="Input" SideIndex="B1">
+                    <p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="7" CallUsage="Recommended" DataType="@-76017669_0" HotSpot="35 50" ListViewHotSpot="0 110" Name="sampling info_C" PreferredDirection="Input" SideIndex="B2">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>0x408F400000000000</Field1>
+                            <Field2>0x408F400000000000</Field2>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Output" CallIndex="1" CallUsage="Recommended" DataType="Wfm(Double)" HotSpot="50 15" ListViewHotSpot="150 140" Name="Carrier" PreferredDirection="Output" SideIndex="R1">
+                    <p.DefaultValue>
+                        <Waveform>
+                            <Timestamp>60052752000;0;Utc</Timestamp>
+                            <Interval>0x3FF0000000000000</Interval>
+                            <Data>
+                                <Array Lengths="0" />
+                            </Data>
+                            <Attributes>
+                                <Attribute Name="NI_UnitDescription" DataType="String">""</Attribute>
+                                <Attribute Name="NI_ChannelName" DataType="String">""</Attribute>
+                            </Attributes>
+                        </Waveform>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Output" CallIndex="2" CallUsage="Recommended" DataType="Wfm(Double)" HotSpot="50 25" ListViewHotSpot="150 125" Name="AM" PreferredDirection="Output" SideIndex="R2">
+                    <p.DefaultValue>
+                        <Waveform>
+                            <Timestamp>60052752000;0;Utc</Timestamp>
+                            <Interval>0x3FF0000000000000</Interval>
+                            <Data>
+                                <Array Lengths="0" />
+                            </Data>
+                            <Attributes>
+                                <Attribute Name="NI_UnitDescription" DataType="String">""</Attribute>
+                                <Attribute Name="NI_ChannelName" DataType="String">""</Attribute>
+                            </Attributes>
+                        </Waveform>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <CachedQualifiedDependency SourceId="106" TargetName="FFT\ Power\ Spectrum\ and\ PSD\ for\ 1\ Chan2\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="108" TargetName="FFT\ Power\ Spectrum\ and\ PSD\ for\ 1\ Chan2\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="109" TargetName="FFT\ Power\ Spectrum\ and\ PSD\ for\ 1\ Chan2\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="244" TargetName="Sine\ Waveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="251" TargetName="Sine\ Waveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+            </FunctionSignatureCache>
+            <DataTypeReferenceTable>
+                <p.TypeReference TypeId="-76017669_0">
+                    <Class Id="1" Name="" Cluster="">
+                        <ClosedGenericParameters />
+                        <GenericTypeDefinition>
+                            <Void />
+                        </GenericTypeDefinition>
+                        <BaseType>
+                            <Void />
+                        </BaseType>
+                        <Interfaces />
+                        <Members>
+                            <Field FieldAccessPolicy="ReadWrite" Name="Fs">
+                                <DataType>
+                                    <Double />
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="#s">
+                                <DataType>
+                                    <Double />
+                                </DataType>
+                            </Field>
+                        </Members>
+                    </Class>
+                </p.TypeReference>
+            </DataTypeReferenceTable>
+        </DefinitionCacheUserSetting>
+    </UserSettingsDefinition>
+</SourceFile>
